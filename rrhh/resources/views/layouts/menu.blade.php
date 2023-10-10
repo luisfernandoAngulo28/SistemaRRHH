@@ -6,6 +6,19 @@
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
+          <!--Administrador-->
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+              <i class="icon-head menu-icon"></i>
+              <span class="menu-title">Roles y Permisos</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic">
+                <a class="nav-link" href="/roles">Gestionar Rol</a>
+                <a class="nav-link" href="#">Gestionar Permisos</a>
+            </div>
+          </li>
+
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="icon-head menu-icon"></i>
