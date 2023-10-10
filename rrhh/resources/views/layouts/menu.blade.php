@@ -14,8 +14,6 @@
             </a>
             <div class="collapse" id="ui-basic">
                 <a class="nav-link" href="/usuarios">Gestionar Usuarios</a>
-                <a class="nav-link" href="#">Gestionar Personal</a>
-                <a class="nav-link" href="#">Gestionar Contrato</a>
             </div>
           </li>
           <li class="nav-item">
@@ -25,8 +23,9 @@
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="form-elements">
-                <a class="nav-link" href="#">Gestionar Postulante</a>
-                <a class="nav-link" href="#">Gestionar Cargo</a>
+                <a class="nav-link" href="/empleados">Gestionar Empleados</a>
+                <a class="nav-link" href="/postulantes">Gestionar Postulantes</a>
+                <a class="nav-link" href="/cargos">Gestionar Cargos</a>
                 <a class="nav-link" href="#">Gestionar Entrevista</a>
                 <a class="nav-link" href="#">Gestionar Evaluacion</a>
                 <a class="nav-link" href="#">Gestionar Preguntas</a>

@@ -6,6 +6,9 @@ use Illuminate\Support\Facades\Auth;
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\UsuarioController;
+use App\Http\Controllers\EmpleadoController;
+use App\Http\Controllers\PostulanteController;
+use App\Http\Controllers\CargoController;
 
 
 Route::get('/', function () {
@@ -22,6 +25,9 @@ Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])-
 Route::group(['middleware' => ['auth']], function () {
 
     Route::resource('usuarios', UsuarioController::class);
+    Route::resource('empleados', EmpleadoController::class);
+    Route::resource('postulantes', PostulanteController::class);
+    Route::resource('cargos', CargoController::class);
 
 
 
