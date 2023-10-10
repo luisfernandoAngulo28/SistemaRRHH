@@ -23,5 +23,17 @@ class DepartamentoSeeder extends Seeder
         $usuario = Departamento::create([
             'name'=>'Sistemas',
         ]);
+        $usuario = Departamento::create([
+            'name'=>'Recursos Humanos',
+        ]);
+        $usuario = Departamento::create([
+            'name'=>'Ventas',
+        ]);
+        $usuario = Departamento::create([
+            'name'=>'Operaciones',
+        ]);
+        $usuario = Departamento::create([
+            'name'=>'Control de Calidad',
+        ]);
     }
 }
